@@ -92,6 +92,13 @@ export const theme = {
             fontSize: '2rem',
             margin: '0'
         }
+    },
+    custom: {
+        thing: {
+            color: 'white',
+            backgroundColor: 'red',
+            p: 10
+        }
     }
 }
 

@@ -7,6 +7,13 @@ const Layout = ({ children }) => (
         <Header>
             <h1 sx={{ variant: 'test.primary'}}>Gatsby Theme Stripe Storefront</h1>
         </Header>
+        <div
+            sx={{
+                variant: 'custom.thing'
+            }}
+        >
+            This is a custom thing!
+        </div>
             <Main>
                 {children}
             </Main>
